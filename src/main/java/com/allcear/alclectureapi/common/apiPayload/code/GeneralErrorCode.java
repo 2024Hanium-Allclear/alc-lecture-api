@@ -1,8 +1,8 @@
 package com.allcear.alclectureapi.common.apiPayload.code;
 
 
-import com.allclearlecture.global.apiPayload.ApiResponse;
-import com.allclearlecture.global.apiPayload.code.status.BaseErrorCode;
+import com.allcear.alclectureapi.common.apiPayload.ApiResponse;
+import com.allcear.alclectureapi.common.apiPayload.code.status.BaseErrorCode;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import org.springframework.http.HttpStatus;

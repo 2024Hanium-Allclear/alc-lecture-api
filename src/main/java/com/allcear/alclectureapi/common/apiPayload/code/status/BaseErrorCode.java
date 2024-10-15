@@ -1,5 +1,5 @@
 package com.allcear.alclectureapi.common.apiPayload.code.status;
-import com.allclearlecture.global.apiPayload.ApiResponse;
+import com.allcear.alclectureapi.common.apiPayload.ApiResponse;
 import org.springframework.http.HttpStatus;
 
 public interface BaseErrorCode {

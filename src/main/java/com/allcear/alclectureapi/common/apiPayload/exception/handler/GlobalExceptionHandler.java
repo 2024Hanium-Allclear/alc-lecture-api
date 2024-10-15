@@ -1,10 +1,10 @@
 package com.allcear.alclectureapi.common.apiPayload.exception.handler;
 
 
-import com.allclearlecture.global.apiPayload.ApiResponse;
-import com.allclearlecture.global.apiPayload.code.GeneralErrorCode;
-import com.allclearlecture.global.apiPayload.code.status.BaseErrorCode;
-import com.allclearlecture.global.apiPayload.exception.GeneralException;
+import com.allcear.alclectureapi.common.apiPayload.ApiResponse;
+import com.allcear.alclectureapi.common.apiPayload.code.GeneralErrorCode;
+import com.allcear.alclectureapi.common.apiPayload.code.status.BaseErrorCode;
+import com.allcear.alclectureapi.common.apiPayload.exception.GeneralException;
 import jakarta.validation.ConstraintViolationException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
