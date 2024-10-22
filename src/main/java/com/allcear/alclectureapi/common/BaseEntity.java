@@ -25,4 +25,16 @@ public class BaseEntity {
 
     @Column(nullable = false)
     private boolean delStatus;
+
+    public void setCreatedDate(LocalDateTime createdDate) {
+        this.createdDate = createdDate;
+    }
+
+    public void setModifiedDate(LocalDateTime modifiedDate) {
+        this.modifiedDate = modifiedDate;
+    }
+
+    protected void setDelStatus(boolean delStatus) {
+        this.delStatus = delStatus;
+    }
 }
