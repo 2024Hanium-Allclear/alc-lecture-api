@@ -44,6 +44,7 @@ MSA 구조 - 특정 시간에 트래픽이 몰릴 것을 대비하고 모듈의 
 06 | 관련 포스트
 
 민주:  [Amazon SQS](https://hmjhaha.tistory.com/9)<br/>
+민영: [[Refact] 코드 개선](https://sinabro-dev.tistory.com/12)<br/>
 민영: [[Error] ExcelFile & RDS 동기화 실시간 변경 데이터 적용 시 나타난 이슈s](https://sinabro-dev.tistory.com/8) <br/>
 민영: [[Kafka] 사전 설정 및 2개의 Thread를 겸비한 Controller 구성](https://sinabro-dev.tistory.com/5)<br/>
 민영: [[Kafka] 파일 변화를 감지하고 Kafka로 데이터를 전송하는 Producer 구축](https://sinabro-dev.tistory.com/6)<br/>
