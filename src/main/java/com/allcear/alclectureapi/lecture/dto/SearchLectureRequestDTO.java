@@ -14,11 +14,4 @@ public class SearchLectureRequestDTO {
     private String lectureName;
     private String division; // 분반 (옵션)
 
-    public SearchLectureRequestDTO(SearchOption searchOption, String query, String grade, String lectureName, String division) {
-        this.searchOption = searchOption;
-        this.query = query;
-        this.grade = grade;
-        this.lectureName = lectureName;
-        this.division = division;
-    }
 }

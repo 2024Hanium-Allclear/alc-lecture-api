@@ -30,7 +30,15 @@ public class LectureController {
             @RequestParam(value = "lectureName", required = false) String lectureName,
             @RequestParam(value = "division", required = false) String division) {
 
-        SearchLectureRequestDTO searchDTO = new SearchLectureRequestDTO(searchOption, query, grade, lectureName, division);
+
+        SearchLectureRequestDTO searchDTO = SearchLectureRequestDTO.builder()
+                .searchOption(searchOption)
+                .query(query)
+                .grade(grade)
+                .lectureName(lectureName)
+                .division(division)
+                .build();
+
         List<LectureResponseDTO> lectures = lectureQueryService.searchLectures(searchDTO);
         return new ResponseEntity<>(lectures, HttpStatus.OK);
     }

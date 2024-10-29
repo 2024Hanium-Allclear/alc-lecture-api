@@ -105,13 +105,9 @@ public class FileUploadController {
         executorService.submit(()->{
             try {
                 String topicName = kafkaTopicConfig.getTopicName();
-
                 Properties props = kafkaConsumerConfig.getKafkaConsumerProperties();
-
                 LecturesDBHandler lecturesDBHandler = new LecturesDBHandler(lectureRepository);
-
                 FileToDBConsumer<String, String> fileToDBConsumer = new FileToDBConsumer<>(props, List.of(topicName), lecturesDBHandler);
-
                 fileToDBConsumer.startConsuming(CommitMode.ASYNC, 3000);  // Kafka Consumer 시작
             } catch (Exception e) {
                 // Kafka 소비자 시작 중 예외 처리
