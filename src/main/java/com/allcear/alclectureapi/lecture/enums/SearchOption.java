@@ -1,9 +1,39 @@
 package com.allcear.alclectureapi.lecture.enums;
 
-public enum SearchOption {
-    DEPARTMENT,  // 학과
-    KEYWORD,     // 키워드
-    LECTURE_CODE // 학수번호
-}
+import com.allcear.alclectureapi.lecture.dto.SearchLectureRequestDTO;
+import com.allcear.alclectureapi.lecture.entity.Lecture;
+import com.allcear.alclectureapi.lecture.repository.LectureRepository;
 
-//비교하는 것도 여기에 함수로 해도 됨.
+import java.util.List;
+
+public enum SearchOption {
+
+    DEPARTMENT{
+        @Override
+        public List<Lecture> search(LectureRepository lectureRepository, SearchLectureRequestDTO searchLectureRequestDTO){
+
+            return lectureRepository.findByDepartmentNameAndGradeAndLectureName(
+                    searchLectureRequestDTO.getQuery(),
+                    searchLectureRequestDTO.getGrade(),
+                    searchLectureRequestDTO.getLectureName()
+            );
+        }
+    },
+    KEYWORD {
+        @Override
+        public List<Lecture> search(LectureRepository lectureRepository, SearchLectureRequestDTO searchDTO) {
+            return lectureRepository.findByLectureNameContaining(searchDTO.getQuery());
+        }
+    },
+    LECTURE_CODE {
+        @Override
+        public List<Lecture> search(LectureRepository lectureRepository, SearchLectureRequestDTO searchDTO) {
+            return lectureRepository.findByLectureCodeAndDivision(
+                    searchDTO.getQuery(),
+                    searchDTO.getDivision()
+            );
+        }
+    };
+
+    public abstract List<Lecture> search(LectureRepository lectureRepository, SearchLectureRequestDTO searchDTO);
+}

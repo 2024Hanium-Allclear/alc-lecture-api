@@ -53,30 +53,7 @@ public class LectureQueryService {
 
     //옵션 별 검색
     public List<LectureResponseDTO> searchLectures(SearchLectureRequestDTO searchDTO) {
-        List<Lecture> lectures;
-
-        // SearchOption에 따른 검색 처리
-        switch (searchDTO.getSearchOption()) {
-            case DEPARTMENT:
-                lectures = lectureRepository.findByDepartmentNameAndGradeAndLectureName(
-                        searchDTO.getQuery(),
-                        searchDTO.getGrade(),
-                        searchDTO.getLectureName()
-                );
-                break;
-            case KEYWORD:
-                lectures = lectureRepository.findByLectureNameContaining(searchDTO.getQuery());
-                break;
-            case LECTURE_CODE:
-                lectures = lectureRepository.findByLectureCodeAndDivision(
-                        searchDTO.getQuery(),
-                        searchDTO.getDivision()
-                );
-                break;
-            default:
-                throw new IllegalArgumentException("Invalid search option");
-        }
-        // Lecture -> LectureResponseDTO 변환
+        List<Lecture> lectures = searchDTO.getSearchOption().search(lectureRepository, searchDTO);
         return lectures.stream()
                 .map(LectureResponseDTO::fromEntity)
                 .collect(Collectors.toList());
