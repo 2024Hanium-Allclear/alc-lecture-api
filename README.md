@@ -9,17 +9,17 @@
 
  👨🏻‍🏫 02 | 레포지토리 구조
 
-- [alc-eureka-api](https://github.com/2024Hanium-Allclear/alc-eureka-api)
+[alc-eureka-api](https://github.com/2024Hanium-Allclear/alc-eureka-api)
 
-- [alc-gateway-api](https://github.com/2024Hanium-Allclear/alc-gateway-api)
+[alc-gateway-api](https://github.com/2024Hanium-Allclear/alc-gateway-api)
 
-- [alc-lecture-api](https://github.com/2024Hanium-Allclear/alc-lecture-api)
+[alc-lecture-api](https://github.com/2024Hanium-Allclear/alc-lecture-api)
 
-- [alc-user-api](https://github.com/2024Hanium-Allclear/alc-user-api)
+[alc-user-api](https://github.com/2024Hanium-Allclear/alc-user-api)
 
-- [alc-waiting-api](https://github.com/2024Hanium-Allclear/alc-waiting-api)
+[alc-waiting-api](https://github.com/2024Hanium-Allclear/alc-waiting-api)
 
-- [alc-front](https://github.com/2024Hanium-Allclear/Frontend)
+[alc-front](https://github.com/2024Hanium-Allclear/Frontend)
 
 ⚙️ 03 | 아키텍쳐
 
@@ -29,6 +29,9 @@
 
 <img src="https://github.com/user-attachments/assets/52396791-42fe-40eb-b06b-275855da071c" alt="image" width="300" height="280">
 
+기술 의사 설정
+
+MSA 구조 - 특정 시간에 트래픽이 몰릴 것을 대비하고 모듈의 확장성과 독립성을 위해 채택
 
 🛠️ 04 | 기술 스택
 
@@ -40,6 +43,7 @@
 
 06 | 관련 포스트
 
+민주:  [Amazon SQS](https://hmjhaha.tistory.com/9)<br/>
 민영: [[Error] ExcelFile & RDS 동기화 실시간 변경 데이터 적용 시 나타난 이슈s](https://sinabro-dev.tistory.com/8) <br/>
 민영: [[Kafka] 사전 설정 및 2개의 Thread를 겸비한 Controller 구성](https://sinabro-dev.tistory.com/5)<br/>
 민영: [[Kafka] 파일 변화를 감지하고 Kafka로 데이터를 전송하는 Producer 구축](https://sinabro-dev.tistory.com/6)<br/>
@@ -55,5 +59,5 @@
 | 신이현     | - Spring Security, Jwt 기반의 로그인 기능 구현<br>- CI/CD 적용<br>- Gateway 및 Eureka 서버 개발<br>- Docker를 사용한 인프라 구축<br>- 프론트 로그인, 회원가입 화면 구현 | [2hy2on](https://github.com/2hy2on)      |
 | 이나연     | - AWS EC2 PostgreSQL 연결<br>- 접속자 대기열 구현<br>- 수강신청, 조회, 삭제 기능 구현                   | [yeon2lee](https://github.com/yeon2lee)  |
 | 한민주     | - 위시리스트 기능 설계 및 개발<br>- Jwt 토큰 활용하여 위시리스트 접근<br>- API 연동, Postman을 통한 테스트 | [Hanminjoo72](https://github.com/Hanminjoo72) |
-| 허민영     | - EC2 Kafka, Zookeeper Port 개방 인스턴스 구축<br>- 강의 데이터 수집 및 전처리 후 Kafka를 활용하여 데이터 DB 적재<br>- 강의 검색 기능 구현<br>- 프론트 검색화면 구현 | [MinCodeHub](https://github.com/MinCodeHub)                 |
+| 허민영     | - EC2 Kafka, Zookeeper Port 개방 인스턴스 구축<br>- 강의 데이터 수집 및 전처리<br> - Kafka Producer&Consumer구조 실시간 데이터 모니터링 및 DB적재 <br> - 강의 검색 기능 구현<br>- 검색화면 구현 | [MinCodeHub](https://github.com/MinCodeHub)                 |
 | **공통**   | 코드 리팩토링                                                                                          |                                          |
