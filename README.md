@@ -50,10 +50,10 @@ MSA 구조 - 특정 시간에 트래픽이 몰릴 것을 대비하고 모듈의 
 민영: [[Kafka] 사전 설정 및 2개의 Thread를 겸비한 Controller 구성](https://sinabro-dev.tistory.com/5)<br/>
 민영: [[Kafka] 파일 변화를 감지하고 Kafka로 데이터를 전송하는 Producer 구축](https://sinabro-dev.tistory.com/6)<br/>
 민영: [[Kafka] Producer로부터 받은 데이터를 DB에 적재하는 Consumer 구축](https://sinabro-dev.tistory.com/7)<br/>
-이현: [[ECS]] 아키텍쳐 구현(1): HTTPS 및 로드밸런서 적용 (https://2hy2on.tistory.com/17) <br/>
-이현: [[ECS]] 아키텍쳐 구현(2): Github Action으로 AWS ECS CI / CD 자동화 (https://2hy2on.tistory.com/18)<br/>
-이현: [[AWS]] private subnet에서 ECR 접근할 때 필요한 VPC 설정 (https://2hy2on.tistory.com/22)<br/>
-이현: [[Eureka]] Eureka Server / Client 구축하기 (https://2hy2on.tistory.com/33)<br/>
+이현: [[ECS] 아키텍쳐 구현(1): HTTPS 및 로드밸런서 적용] (https://2hy2on.tistory.com/17) <br/>
+이현: [[ECS]] 아키텍쳐 구현(2): Github Action으로 AWS ECS CI / CD 자동화] (https://2hy2on.tistory.com/18)<br/>
+이현: [[AWS]] private subnet에서 ECR 접근할 때 필요한 VPC 설정] (https://2hy2on.tistory.com/22)<br/>
+이현: [[Eureka]] Eureka Server / Client 구축하기] (https://2hy2on.tistory.com/33)<br/>
 
 <img src="https://github.com/user-attachments/assets/f1ec1cf9-8d8f-4365-ae88-28af579b442d" alt="image" width="450" height="400">
 
