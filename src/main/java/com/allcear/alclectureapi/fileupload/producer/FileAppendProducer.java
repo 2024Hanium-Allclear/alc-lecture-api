@@ -3,6 +3,7 @@ package com.allcear.alclectureapi.fileupload.producer;
 
 import com.allcear.alclectureapi.fileupload.config.KafkaConsumerConfig;
 import com.allcear.alclectureapi.fileupload.config.KafkaTopicConfig;
+import com.allcear.alclectureapi.fileupload.enums.CommitMode;
 import com.allcear.alclectureapi.fileupload.event.EventHandler;
 import com.allcear.alclectureapi.fileupload.event.FileEventHandler;
 import com.allcear.alclectureapi.fileupload.event.FileEventSource;
@@ -44,12 +45,12 @@ public class FileAppendProducer {
 
     //getThread 메소드를 통해 스레드 생성과 관련된 로직 분리
     private static Thread getThread(String filePath, KafkaProducer<String, String> kafkaProducer, String topicName) {
-        boolean sync = false;
+        ;
         File file = new File(filePath);  // 업로드된 파일 경로 사용
 
         //파일의 변화를 감지하고 Kafka로 데이터를 전송하는 역할
         //이 핸들러는 파일의 변화를 감지하면, 그 내용을 Kafka의 특정 토픽(file-topic)으로 전송하는 로직을 포함
-        EventHandler eventHandler = new FileEventHandler(kafkaProducer, topicName, sync);
+        EventHandler eventHandler = new FileEventHandler(kafkaProducer, topicName, CommitMode.ASYNC);
 
         //파일에서 이벤트를 감지하는 객체
         // 여기서는 파일을 10초(10000 밀리초)마다 폴링(polling)하여 파일의 변화를 확인
