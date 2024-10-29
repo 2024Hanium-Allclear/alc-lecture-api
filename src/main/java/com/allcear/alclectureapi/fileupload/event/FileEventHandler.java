@@ -1,5 +1,6 @@
 package com.allcear.alclectureapi.fileupload.event;
 
+import com.allcear.alclectureapi.fileupload.enums.CommitMode;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -14,12 +15,13 @@ public class FileEventHandler implements EventHandler{
     //생성자
     private  KafkaProducer<String,String> kafkaProducer;
     private String topicName;
-    private boolean sync;
 
-    public FileEventHandler(KafkaProducer<String, String> kafkaProducer, String topicName, boolean sync) {
+    private CommitMode mode;
+
+    public FileEventHandler(KafkaProducer<String, String> kafkaProducer, String topicName, CommitMode mode) {
         this.kafkaProducer = kafkaProducer;
         this.topicName = topicName;
-        this.sync = sync;
+        this.mode = mode;
     }
 
     //메시지를 하나씩 보내는것
@@ -27,7 +29,7 @@ public class FileEventHandler implements EventHandler{
     public void onMessage(MessageEvent messageEvent) throws InterruptedException, ExecutionException {
         ProducerRecord<String, String> producerRecord = new ProducerRecord<>(topicName, messageEvent.key, messageEvent.value);
 
-        if(this.sync){ //sync일 때
+        if(mode == CommitMode.SYNC){ //sync일 때
             RecordMetadata recordMetadata = this.kafkaProducer.send(producerRecord).get();
             //메시지가 브로커에 전송될 때까지 대기
             //메시지가 성공적으로 전송되면, RecordMetadata 객체를 반환하여 메시지의 메타데이터(파티션, 오프셋, 타임스탬프 등)를 로그에 기록합니다.
