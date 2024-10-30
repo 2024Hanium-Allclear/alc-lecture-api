@@ -43,12 +43,12 @@
 <h1>💻 06 | 관련 포스트</h1>
 
 민주:  [Amazon SQS](https://hmjhaha.tistory.com/9)<br/>
-민영: [[Refact] Enum 확장](https://sinabro-dev.tistory.com/13)<br/>
-민영: [[Refact] 코드 개선](https://sinabro-dev.tistory.com/12)<br/>
-민영: [[Error] ExcelFile & RDS 동기화 실시간 변경 데이터 적용 시 나타난 이슈s](https://sinabro-dev.tistory.com/8) <br/>
-민영: [[Kafka] 사전 설정 및 2개의 Thread를 겸비한 Controller 구성](https://sinabro-dev.tistory.com/5)<br/>
-민영: [[Kafka] 파일 변화를 감지하고 Kafka로 데이터를 전송하는 Producer 구축](https://sinabro-dev.tistory.com/6)<br/>
-민영: [[Kafka] Producer로부터 받은 데이터를 DB에 적재하는 Consumer 구축](https://sinabro-dev.tistory.com/7)<br/>
+민영: [[Refact] Enum 확장](https://dragonair148.tistory.com/entry/Refact-Enum-%ED%99%95%EC%9E%A5)<br/>
+민영: [[Refact] 코드 개선](https://dragonair148.tistory.com/entry/Refact-%EC%BD%94%EB%93%9C-%EA%B0%9C%EC%84%A0)<br/>
+민영: [[Error] ExcelFile & RDS 동기화 실시간 변경 데이터 적용 시 나타난 이슈s](https://dragonair148.tistory.com/entry/Error-ExcelFile-RDS-%EB%8F%99%EA%B8%B0%ED%99%94-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%B3%80%EA%B2%BD-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%81%EC%9A%A9-%EC%8B%9C-%EB%82%98%ED%83%80%EB%82%9C-%EC%9D%B4%EC%8A%88s) <br/>
+민영: [[Kafka] 사전 설정 및 2개의 Thread를 겸비한 Controller 구성](https://dragonair148.tistory.com/entry/Kafka-%EC%82%AC%EC%A0%84-%EC%84%A4%EC%A0%95-%EB%B0%8F-2%EA%B0%9C%EC%9D%98-Thread%EB%A5%BC-%EA%B2%B8%EB%B9%84%ED%95%9C-Controller-%EA%B5%AC%EC%84%B1)<br/>
+민영: [[Kafka] 파일 변화를 감지하고 Kafka로 데이터를 전송하는 Producer 구축](https://dragonair148.tistory.com/entry/Kafka-%ED%8C%8C%EC%9D%BC-%EB%B3%80%ED%99%94%EB%A5%BC-%EA%B0%90%EC%A7%80%ED%95%98%EA%B3%A0-Kafka%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-%EC%A0%84%EC%86%A1%ED%95%98%EB%8A%94-Producer-%EA%B5%AC%EC%B6%95)<br/>
+민영: [[Kafka] Producer로부터 받은 데이터를 DB에 적재하는 Consumer 구축](https://dragonair148.tistory.com/entry/Kafka-Producer%EB%A1%9C%EB%B6%80%ED%84%B0-%EB%B0%9B%EC%9D%80-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC-DB%EC%97%90-%EC%A0%81%EC%9E%AC%ED%95%98%EB%8A%94-Consumer-%EA%B5%AC%EC%B6%95-1)<br/>
 이현: [[ECS] 아키텍쳐 구현(1): HTTPS 및 로드밸런서 적용](https://2hy2on.tistory.com/17) <br/>
 이현: [[ECS]아키텍쳐 구현(2): Github Action으로 AWS ECS CI / CD 자동화](https://2hy2on.tistory.com/18)<br/>
 이현: [[AWS] private subnet에서 ECR 접근할 때 필요한 VPC 설정](https://2hy2on.tistory.com/22)<br/>
