@@ -1,46 +1,46 @@
-👨🏻‍🏫 01 | 프로젝트 소개
+<h1>👨🏻‍🏫 01 | 프로젝트 소개</h1>
 
-- MSA 구조 - 특정 시간에 트래픽이 몰릴 것을 대비하고 모듈의 확장성과 독립성을 위해 채택 <br/>
-수강신청 사이트 allclear는 학생들의 수강신청 연습을 도와주는 서비스를 제공합니다. <br/>
+- 수강신청 사이트 allclear는 학생들의 수강신청 연습을 도와주는 서비스를 제공합니다. <br/>
 수강신청의 특징이라고 한다면, 특정한 시각에 사람들이 한꺼번에 몰려 트래픽이 집중된다는 것입니다. <br/>
-저희 팀은 이러한 상황에서도 서버가 터지지 않게 하기 위한 안정적인 아키텍처를 고민해보고 프로젝트에 적용해보았습니다.<br/>
+저희 팀은 트래픽이 몰릴는 상황에서도 서버가 터지지 않게 하기 위한 안정적인 아키텍처를 고민하였고, <br/>
+모듈의 확장성과 독립성을 위해 MSA 구조를 채택하여 프로젝트에 적용해보았습니다.<br/>
 
-- 프로젝트 진행 기간 : 2024.04.10(월) ~ 2024.05.19(금) (6주간 진행)
-- 시연 영상 :  allclear
 
- 👨🏻‍🏫 02 | 레포지토리 구조
+- 프로젝트 진행 기간 : 2024.03.13 ~ 2024.10.29
 
-[alc-eureka-api](https://github.com/2024Hanium-Allclear/alc-eureka-api)
 
-[alc-gateway-api](https://github.com/2024Hanium-Allclear/alc-gateway-api)
+ <h1>👨🏻‍🏫 02 | 레포지토리 구조</h1>
 
-[alc-lecture-api](https://github.com/2024Hanium-Allclear/alc-lecture-api)
+- [alc-eureka-api](https://github.com/2024Hanium-Allclear/alc-eureka-api)
 
-[alc-user-api](https://github.com/2024Hanium-Allclear/alc-user-api)
+- [alc-gateway-api](https://github.com/2024Hanium-Allclear/alc-gateway-api)
 
-[alc-waiting-api](https://github.com/2024Hanium-Allclear/alc-waiting-api)
+- [alc-lecture-api](https://github.com/2024Hanium-Allclear/alc-lecture-api)
 
-[alc-front](https://github.com/2024Hanium-Allclear/Frontend)
+- [alc-user-api](https://github.com/2024Hanium-Allclear/alc-user-api)
 
-⚙️ 03 | 아키텍처
+- [alc-waiting-api](https://github.com/2024Hanium-Allclear/alc-waiting-api)
+
+- [alc-front](https://github.com/2024Hanium-Allclear/Frontend)
+
+<h1>⚙️ 03 | 아키텍처</h1>
 
 <img src="https://github.com/user-attachments/assets/1a75eb9c-a3b1-4fe8-99c7-4ded50117b5e" alt="image" width="600" height="400">
 
 <img src="https://github.com/user-attachments/assets/52396791-42fe-40eb-b06b-275855da071c" alt="image" width="300" height="280">
 
 
-🛠️ 04 | 기술 스택
+<h1>🛠️ 04 | 기술 스택</h1>
 
 <img src="https://github.com/user-attachments/assets/f1ec1cf9-8d8f-4365-ae88-28af579b442d" alt="image" width="450" height="400">
 
 
 
-📃 05 | 프로젝트 산출물
+<h1>📃 05 | ERD</h1>
 
-- ERD
-<img src="https://github.com/user-attachments/assets/862b6e61-7d18-44b2-b495-4861838bc08a" alt="image" width="450" height="400">
+<img src="https://github.com/user-attachments/assets/862b6e61-7d18-44b2-b495-4861838bc08a" alt="image" width="750" height="600">
 
-💻 06 | 관련 포스트
+<h1>💻 06 | 관련 포스트</h1>
 
 민주:  [Amazon SQS](https://hmjhaha.tistory.com/9)<br/>
 민영: [[Refact] Enum 확장](https://sinabro-dev.tistory.com/13)<br/>
@@ -56,7 +56,7 @@
 
 
 
-👨‍👩‍👧‍👦 07 | 팀원
+<h1>👨‍👩‍👧‍👦 07 | 팀원</h1>
 
 | 이름       | 역할                                                                                                  | GitHub                                   |
 |------------|-------------------------------------------------------------------------------------------------------|------------------------------------------|
