@@ -42,7 +42,7 @@
 
 <h1>💻 06 | 관련 포스트</h1>
 
-민주:  [Amazon SQS](https://hmjhaha.tistory.com/9)<br/>
+민주: [[SQS] Amazon SQS](https://hmjhaha.tistory.com/9)<br/>
 민영: [[Refact] Enum 확장](https://dragonair148.tistory.com/entry/Refact-Enum-%ED%99%95%EC%9E%A5)<br/>
 민영: [[Refact] 코드 개선](https://dragonair148.tistory.com/entry/Refact-%EC%BD%94%EB%93%9C-%EA%B0%9C%EC%84%A0)<br/>
 민영: [[Error] ExcelFile & RDS 동기화 실시간 변경 데이터 적용 시 나타난 이슈s](https://dragonair148.tistory.com/entry/Error-ExcelFile-RDS-%EB%8F%99%EA%B8%B0%ED%99%94-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%B3%80%EA%B2%BD-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%A0%81%EC%9A%A9-%EC%8B%9C-%EB%82%98%ED%83%80%EB%82%9C-%EC%9D%B4%EC%8A%88s) <br/>
@@ -62,6 +62,6 @@
 |------------|-------------------------------------------------------------------------------------------------------|------------------------------------------|
 | 신이현     | - Spring Security, Jwt 기반의 로그인 기능 구현<br>- CI/CD 적용<br>- Gateway 및 Eureka 서버 개발<br>- Docker를 사용한 인프라 구축<br>- 프론트 로그인, 회원가입 화면 구현 | [2hy2on](https://github.com/2hy2on)      |
 | 이나연     | - AWS EC2 PostgreSQL 연결<br>- 접속자 대기열 구현<br>- 수강신청, 조회, 삭제 기능 구현                   | [yeon2lee](https://github.com/yeon2lee)  |
-| 한민주     | - 위시리스트 기능 설계 및 개발<br>- Jwt 토큰 활용하여 위시리스트 접근<br>- API 연동, Postman을 통한 테스트 | [Hanminjoo72](https://github.com/Hanminjoo72) |
+| 한민주     | - 위시리스트 기능 설계 및 개발<br>- Jwt 토큰 활용하여 위시리스트 접근<br>- API 연동, Postman을 통한 테스트<br> - Amazon SQS 우선순위 수정,삭제 테스트 경험| [Hanminjoo72](https://github.com/Hanminjoo72) |
 | 허민영     | - EC2 Kafka, Zookeeper Port 개방 인스턴스 구축<br>- 강의 데이터 수집 및 전처리<br> - Kafka Producer&Consumer구조 실시간 데이터 모니터링 및 DB적재 <br> - 강의 검색 기능 구현<br>- 검색화면 구현 | [MinCodeHub](https://github.com/MinCodeHub)                 |
 | **공통**   | 코드 리팩토링                                                                                          |                                          |
