@@ -1,5 +1,9 @@
 <h1>👨🏻‍🏫 01 | 프로젝트 소개</h1>
 
+![GIFMaker_me (1)](https://github.com/user-attachments/assets/0ce396d8-4b49-4ccc-921e-7083929c1205)
+
+시연 영상: [allclear](https://www.youtube.com/watch?v=jpqb2--7TIQ)
+
 - 수강신청 사이트 allclear는 학생들의 수강신청 연습을 도와주는 서비스를 제공합니다. <br/>
 수강신청의 특징이라고 한다면, 특정한 시각에 사람들이 한꺼번에 몰려 트래픽이 집중된다는 것입니다. <br/>
 저희 팀은 트래픽이 몰릴는 상황에서도 서버가 터지지 않게 하기 위한 안정적인 아키텍처를 고민하였고, <br/>
